@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuradha Mathuria | Digital Marketing & Performance Growth Lead</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandDark: '#0b1120',
+            brandNavy: '#0f172a',
+            brandCard: '#1e293b',
+            brandGold: '#c5a059',
+            brandGoldHover: '#d4af37',
+            brandMuted: '#94a3b8'
+          },
+          fontFamily: {
+            serifHeading: ['Cinzel', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .gold-border { border-color: rgba(197, 160, 89, 0.25); }
+    .gold-gradient {
+      background: linear-gradient(135deg, #d4af37 0%, #c5a059 50%, #aa8030 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge-gold {
+      background: rgba(197, 160, 89, 0.12);
+      border: 1px solid rgba(197, 160, 89, 0.35);
+      color: #d4af37;
+    }
+  </style>
+</head>
+<body class="bg-brandDark text-slate-100 font-sans antialiased selection:bg-brandGold selection:text-black">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-brandDark/90 backdrop-blur-md border-b gold-border">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full border border-brandGold flex items-center justify-center font-serifHeading text-brandGold font-bold text-lg">
+          AM
+        </div>
+        <div class="flex flex-col">
+          <span class="font-serifHeading text-base tracking-widest uppercase font-bold text-slate-100">Anuradha Mathuria</span>
+          <span class="text-xs text-brandGold tracking-wider uppercase">Performance Marketing Lead</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#metrics" class="hover:text-brandGold transition-colors">Impact</a>
+        <a href="#experience" class="hover:text-brandGold transition-colors">Experience</a>
+        <a href="#skills" class="hover:text-brandGold transition-colors">Skills & Tech</a>
+        <a href="#creator" class="hover:text-brandGold transition-colors">Creator Track</a>
+        <a href="#contact" class="px-5 py-2 rounded-full border border-brandGold text-brandGold hover:bg-brandGold hover:text-black transition-all font-semibold text-xs tracking-wider uppercase">Contact Me</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" class="md:hidden text-slate-300 text-2xl focus:outline-none" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobileMenu" class="hidden md:hidden bg-brandNavy border-b gold-border px-6 py-6 flex flex-col gap-4 text-sm font-medium text-slate-200">
+      <a href="#metrics" class="mobile-nav-link hover:text-brandGold py-1">Impact</a>
+      <a href="#experience" class="mobile-nav-link hover:text-brandGold py-1">Experience</a>
+      <a href="#skills" class="mobile-nav-link hover:text-brandGold py-1">Skills & Tech</a>
+      <a href="#creator" class="mobile-nav-link hover:text-brandGold py-1">Creator Track</a>
+      <a href="#contact" class="mobile-nav-link text-brandGold py-1">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="pt-36 pb-20 px-6 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+    <div class="flex-1 space-y-6 text-center lg:text-left">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full badge-gold text-xs tracking-wider uppercase font-semibold">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Available for Strategic & Growth Leadership Roles
+      </div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serifHeading font-bold tracking-tight text-white leading-tight">
+        Scaling Pipelines Through <br><span class="gold-gradient">Full-Funnel Performance</span>
+      </h1>
+      <p class="text-slate-300 max-w-2xl text-base sm:text-lg leading-relaxed mx-auto lg:mx-0">
+        4+ years specializing in international and domestic B2B & D2C lead generation, paid marketing, SEO, and bulletproof conversion tracking architecture[cite: 2]. Delivered <strong>₹6 Cr+ in revenue pipeline</strong> across manufacturing and global services[cite: 2].
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+        <a href="#contact" class="px-7 py-3.5 rounded-lg bg-brandGold text-black font-semibold text-sm tracking-wide uppercase hover:bg-brandGoldHover transition-all shadow-lg shadow-brandGold/20">
+          Book Consultation
+        </a>
+        <a href="mailto:anu.mathuria@hotmail.com" class="px-7 py-3.5 rounded-lg border gold-border text-slate-200 font-medium text-sm tracking-wide hover:bg-slate-800 transition-all flex items-center gap-2">
+          <i class="fa-regular fa-envelope text-brandGold"></i> anu.mathuria@hotmail.com[cite: 2]
+        </a>
+      </div>
+
+      <div class="pt-6 flex items-center justify-center lg:justify-start gap-6 text-slate-400 text-sm">
+        <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-brandGold"></i> Ahmedabad, Gujarat[cite: 2]</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-phone text-brandGold"></i> +91 92657 48110[cite: 2]</span>
+      </div>
+    </div>
+
+    <!-- Digital Business Card Visual -->
+    <div class="w-full max-w-md bg-gradient-to-br from-brandNavy to-slate-900 border gold-border rounded-2xl p-7 shadow-2xl relative">
+      <div class="absolute -top-3 -right-3 w-20 h-20 bg-brandGold/10 rounded-full blur-xl pointer-events-none"></div>
+      <div class="flex justify-between items-start border-b gold-border pb-5">
+        <div>
+          <h2 class="font-serifHeading text-xl font-bold tracking-wide text-white">Anuradha Mathuria</h2>
+          <p class="text-xs text-brandGold tracking-wider uppercase mt-0.5">Digital Marketing & Growth Lead</p>
+        </div>
+        <div class="w-9 h-9 rounded-full border border-brandGold flex items-center justify-center font-serifHeading text-brandGold text-sm">
+          AM
+        </div>
+      </div>
+
+      <div class="py-5 space-y-3 text-xs text-slate-300">
+        <div class="flex items-center justify-between">
+          <span class="text-slate-400">Total Leads Generated:</span>
+          <span class="font-semibold text-slate-100">11,700+ Verified Leads[cite: 2]</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-slate-400">Revenue Impact:</span>
+          <span class="font-semibold text-brandGold">₹6 Crore+ Pipeline[cite: 2]</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-slate-400">Attribution Setup:</span>
+          <span class="font-semibold text-slate-100">100% GTM & GA4 Trigger Precision[cite: 2]</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-slate-400">Creator Audience:</span>
+          <span class="font-semibold text-slate-100">155K+ Subscribers (Silver Play Button)[cite: 2]</span>
+        </div>
+      </div>
+
+      <div class="pt-4 border-t gold-border flex items-center justify-between">
+        <a href="tel:+919265748110" class="text-xs text-slate-300 hover:text-brandGold transition-colors flex items-center gap-1.5">
+          <i class="fa-solid fa-phone text-brandGold"></i> Call Now[cite: 2]
+        </a>
+        <a href="mailto:anu.mathuria@hotmail.com" class="text-xs text-slate-300 hover:text-brandGold transition-colors flex items-center gap-1.5">
+          <i class="fa-solid fa-paper-plane text-brandGold"></i> Send Email[cite: 2]
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT METRICS -->
+  <section id="metrics" class="py-16 bg-brandNavy/60 border-y gold-border">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div class="space-y-1">
+          <div class="font-serifHeading text-3xl sm:text-4xl font-bold gold-gradient">₹6 Cr+</div>
+          <div class="text-xs sm:text-sm text-slate-300 font-medium tracking-wide">Revenue Pipeline Delivered[cite: 2]</div>
+        </div>
+        <div class="space-y-1">
+          <div class="font-serifHeading text-3xl sm:text-4xl font-bold text-white">11,700+</div>
+          <div class="text-xs sm:text-sm text-slate-300 font-medium tracking-wide">B2B & D2C Leads Generated[cite: 2]</div>
+        </div>
+        <div class="space-y-1">
+          <div class="font-serifHeading text-3xl sm:text-4xl font-bold gold-gradient">155K+</div>
+          <div class="text-xs sm:text-sm text-slate-300 font-medium tracking-wide">Organic YouTube Community[cite: 2]</div>
+        </div>
+        <div class="space-y-1">
+          <div class="font-serifHeading text-3xl sm:text-4xl font-bold text-white">100%</div>
+          <div class="text-xs sm:text-sm text-slate-300 font-medium tracking-wide">Conversion Attribution Accuracy[cite: 2]</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES / EXPERIENCE -->
+  <section id="experience" class="py-24 px-6 max-w-7xl mx-auto space-y-16">
+    <div class="text-center max-w-2xl mx-auto space-y-3">
+      <h2 class="text-xs uppercase tracking-widest text-brandGold font-bold">Featured Case Studies</h2>
+      <h3 class="text-3xl font-serifHeading font-bold text-white">Proven Commercial Results</h3>
+      <p class="text-slate-400 text-sm">Strategic campaign execution translating ad spends directly into high-value pipeline revenue[cite: 2].</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Case Study 1 -->
+      <div class="bg-brandCard/60 border gold-border rounded-xl p-8 space-y-6 flex flex-col justify-between hover:border-brandGold/60 transition-all">
+        <div class="space-y-4">
+          <div class="flex justify-between items-start">
+            <span class="text-xs uppercase tracking-wider font-semibold text-brandGold">Automotive / Electric Mobility[cite: 2]</span>
+            <span class="text-xs text-slate-400">Apr 2026 - Sep 2026[cite: 2]</span>
+          </div>
+          <h4 class="text-xl font-bold text-white">BU4 Auto — Pan-India Dealer & D2C Acquisition[cite: 2]</h4>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Spearheaded full-funnel digital marketing across Meta and Google Video campaigns to build a dealer/distributor network across India[cite: 2]. Built multi-platform tag tracking via GTM without manual header bloat, preserving website speed[cite: 2].
+          </p>
+          <div class="grid grid-cols-2 gap-3 pt-2">
+            <div class="bg-slate-900/60 p-3 rounded-lg border border-slate-800">
+              <div class="text-xs text-slate-400">B2B Leads Generated[cite: 2]</div>
+              <div class="text-lg font-bold text-white">3,000+ Leads[cite: 2]</div>
+            </div>
+            <div class="bg-slate-900/60 p-3 rounded-lg border border-slate-800">
+              <div class="text-xs text-slate-400">Sales Contribution[cite: 2]</div>
+              <div class="text-lg font-bold text-brandGold">₹2 Cr+ Sales[cite: 2]</div>
+            </div>
+          </div>
+        </div>
+        <div class="text-xs text-slate-400 border-t border-slate-800 pt-4 flex items-center justify-between">
+          <span>Ad Spend: ~₹3.5 Lakh[cite: 2]</span>
+          <span>Role: Digital Marketing Manager[cite: 2]</span>
+        </div>
+      </div>
+
+      <!-- Case Study 2 -->
+      <div class="bg-brandCard/60 border gold-border rounded-xl p-8 space-y-6 flex flex-col justify-between hover:border-brandGold/60 transition-all">
+        <div class="space-y-4">
+          <div class="flex justify-between items-start">
+            <span class="text-xs uppercase tracking-wider font-semibold text-brandGold">Immigration & Cross-Border B2B[cite: 2]</span>
+            <span class="text-xs text-slate-400">Nov 2024 - Apr 2026[cite: 2]</span>
+          </div>
+          <h4 class="text-xl font-bold text-white">Amin Migration LLP — Canada & Domestic Lead Engine[cite: 2]</h4>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Executed international B2B campaigns targeting Canada and regional B2C acquisition across Gujarat[cite: 2]. Engineered custom form triggers via GTM to eliminate unqualified lead submissions and ensure 100% attribution accuracy[cite: 2].
+          </p>
+          <div class="grid grid-cols-2 gap-3 pt-2">
+            <div class="bg-slate-900/60 p-3 rounded-lg border border-slate-800">
+              <div class="text-xs text-slate-400">Qualified Leads[cite: 2]</div>
+              <div class="text-lg font-bold text-white">8,707 Leads[cite: 2]</div>
+            </div>
+            <div class="bg-slate-900/60 p-3 rounded-lg border border-slate-800">
+              <div class="text-xs text-slate-400">Revenue Generated[cite: 2]</div>
+              <div class="text-lg font-bold text-brandGold">₹4 Cr Revenue[cite: 2]</div>
+            </div>
+          </div>
+        </div>
+        <div class="text-xs text-slate-400 border-t border-slate-800 pt-4 flex items-center justify-between">
+          <span>Ad Spend: ₹15 Lakh[cite: 2]</span>
+          <span>Role: Digital Marketing Manager[cite: 2]</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS & TOOLS -->
+  <section id="skills" class="py-20 bg-brandNavy/40 border-y gold-border">
+    <div class="max-w-7xl mx-auto px-6 space-y-12">
+      <div class="text-center max-w-2xl mx-auto space-y-3">
+        <h2 class="text-xs uppercase tracking-widest text-brandGold font-bold">Capabilities & Architecture</h2>
+        <h3 class="text-3xl font-serifHeading font-bold text-white">Core Marketing & Technical Stack</h3>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Category 1 -->
+        <div class="bg-brandNavy/80 border gold-border rounded-xl p-6 space-y-4">
+          <div class="w-10 h-10 rounded-lg bg-brandGold/10 flex items-center justify-center text-brandGold text-lg">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <h4 class="font-bold text-white text-lg">Performance Marketing</h4>
+          <ul class="text-slate-300 text-sm space-y-2">
+            <li>• Meta Ads & Google Ads Full-Funnel[cite: 2]</li>
+            <li>• B2B & D2C Multi-Region Retargeting[cite: 2]</li>
+            <li>• JioHotstar & LinkedIn Advertising[cite: 2]</li>
+            <li>• Ad Creative Strategy & Copy Optimization[cite: 2]</li>
+          </ul>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="bg-brandNavy/80 border gold-border rounded-xl p-6 space-y-4">
+          <div class="w-10 h-10 rounded-lg bg-brandGold/10 flex items-center justify-center text-brandGold text-lg">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h4 class="font-bold text-white text-lg">Tracking & Analytics</h4>
+          <ul class="text-slate-300 text-sm space-y-2">
+            <li>• Google Tag Manager (GTM) Architecture[cite: 2]</li>
+            <li>• Google Analytics 4 (GA4) Event Modeling[cite: 2]</li>
+            <li>• Looker Studio Custom Reporting Dashboards[cite: 2]</li>
+            <li>• Microsoft Clarity Heatmaps & User Journeys[cite: 2]</li>
+          </ul>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="bg-brandNavy/80 border gold-border rounded-xl p-6 space-y-4">
+          <div class="w-10 h-10 rounded-lg bg-brandGold/10 flex items-center justify-center text-brandGold text-lg">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <h4 class="font-bold text-white text-lg">Organic & Technical SEO</h4>
+          <ul class="text-slate-300 text-sm space-y-2">
+            <li>• Keyword Research & Intent Mapping[cite: 2]</li>
+            <li>• On-Page & Technical SEO Audits[cite: 2]</li>
+            <li>• Google Search Console & SEMrush Workflows[cite: 2]</li>
+            <li>• WordPress & Landing Page Optimization[cite: 2]</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATOR EXPERIENCE -->
+  <section id="creator" class="py-20 px-6 max-w-7xl mx-auto">
+    <div class="bg-gradient-to-r from-brandNavy via-slate-900 to-brandNavy border gold-border rounded-2xl p-8 sm:p-12 flex flex-col lg:flex-row items-center justify-between gap-8">
+      <div class="space-y-4 max-w-2xl text-center lg:text-left">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full badge-gold text-xs font-semibold">
+          <i class="fa-brands fa-youtube text-red-500"></i> YouTube Silver Creator Award[cite: 2]
+        </div>
+        <h3 class="text-2xl sm:text-3xl font-serifHeading font-bold text-white">Creator & Host: KDrama Dost[cite: 2]</h3>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          Founded and grew an organic entertainment brand to over <strong>155,000+ subscribers</strong>[cite: 2]. Personally lead content strategy, scripting, video editing, and YouTube SEO to drive consistent engagement and retention[cite: 2].
+        </p>
+        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-slate-300 pt-2">
+          <span class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">155K+ Subscribers[cite: 2]</span>
+          <span class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">Silver Play Button[cite: 2]</span>
+          <span class="bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">Content Strategy & SEO[cite: 2]</span>
+        </div>
+      </div>
+
+      <div class="flex-shrink-0 text-center">
+        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-lg border border-red-500/50 hover:bg-red-500 hover:text-white transition-all text-xs font-bold uppercase tracking-wider text-red-400 inline-flex items-center gap-2">
+          <i class="fa-brands fa-youtube text-lg"></i> Visit Channel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FOOTER -->
+  <footer id="contact" class="py-20 bg-brandDark border-t gold-border">
+    <div class="max-w-4xl mx-auto px-6 text-center space-y-8">
+      <div class="space-y-3">
+        <h2 class="text-xs uppercase tracking-widest text-brandGold font-bold">Get In Touch</h2>
+        <h3 class="text-3xl font-serifHeading font-bold text-white">Let's Discuss Performance & Growth</h3>
+        <p class="text-slate-400 text-sm max-w-lg mx-auto">Open for consulting engagements, brand campaigns, and senior growth leadership roles[cite: 2].</p>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-6 pt-4">
+        <a href="mailto:anu.mathuria@hotmail.com" class="px-6 py-3 rounded-lg bg-brandNavy border gold-border hover:border-brandGold transition-all flex items-center gap-3 text-slate-200 text-sm">
+          <i class="fa-solid fa-envelope text-brandGold"></i>
+          <span>anu.mathuria@hotmail.com[cite: 2]</span>
+        </a>
+        <a href="tel:+919265748110" class="px-6 py-3 rounded-lg bg-brandNavy border gold-border hover:border-brandGold transition-all flex items-center gap-3 text-slate-200 text-sm">
+          <i class="fa-solid fa-phone text-brandGold"></i>
+          <span>+91 92657 48110[cite: 2]</span>
+        </a>
+      </div>
+
+      <div class="pt-12 border-t border-slate-800 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p>© 2026 Anuradha Mathuria. All rights reserved.</p>
+        <p class="text-brandGold">Performance Marketing • SEO • Attribution Architecture[cite: 2]</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE NAV JS -->
+  <script>
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileNavLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+  </script>
+</body>
+</html>
